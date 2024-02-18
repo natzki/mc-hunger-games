@@ -1,0 +1,58 @@
+# Here you can set the various options for the Hunger Games plugin
+# Remove to set back to default
+# OPTIONS
+# pvp_cooldown_seconds: How long until PvP should be enabled when the game starts
+# game_finish_time_seconds: How long until the server restarts when the game is finished
+# game_timer_minutes: How long should the game take until deathmatch starts
+# game_start_time_seconds: How long until the game starts when the server is full
+# deathmatch_players: At how many players should voting for deathmatch be initiated. Set to -1 to disable
+# deathmatch_check_minutes: At how many minutes should be checked if /dm should be available from deathmatch_players
+# game_deathmatch_time_minutes: How long the deathmatch takes
+# supply_drop_minutes: At how many minutes remaining a supply drop will spawn. Set to -1 to disable
+# min_players: Minimum amout of players to start the game
+# min_players_cap: Change in player count (in minus!!) allowed to avoid possible constant cancellation of the game when players come and go
+# max_players: Max players until the game starts
+# game_finish_cooldown_minutes: Time in minutes after the game is reset to wait before the next game can start. Set to 0 for no cooldown
+# timed_messages: Interval in minutes that random tips are displayed. Set 0 to disable
+# tip_messages: Messages that are displayed at timed_messages interval
+# selectkit: [NOTE: DEPRECATED!] Message that is displayed when a player joins (use for kit description)
+# notify_ops_ingame_on_playerjoin: Wheter to send a message to admins in-game if a player joins
+# showram: Show RAM usage in the console (for debugging)
+# custom_game_world: Whether or not to use a custom seed for the game world
+# custom_game_world_seed: The seed to use for the custom world when custom_game_world is set to true (needs to be an integer whithin scope)
+# custom_map: Set to true if you want to use your own map (name must be 'custom')
+# remind_voting: Send player a message when he logs in to remind him to vote for the server
+# remind_voting_message: Message that is displayed when the player logs in when remind_voting is enabled
+# voting_sites: List of voting sites to display
+game_finish_cooldown_minutes: 5
+custom_game_world_seed: 1234567890
+pvp_cooldown_seconds: 120
+game_finish_time_seconds: 20
+game_start_time_seconds: 60
+game_deathmatch_time_minutes: 15
+min_players: 5
+timed_messages: 3
+supply_drop_minutes: 30
+game_timer_minutes: 60
+deathmatch_players: 4
+min_players_cap: 5
+max_players: 50
+deathmatch_check_minutes: 10
+selectkit: §cWelcome! Please select your kit with /kit <name>. To view available kits
+  simply type /kit.
+gamefull: The server is full!
+gamestart: §6§lLet the games begin!
+remind_voting_message: §aDon't forget to vote!
+custom_map: false
+notify_ops_ingame_on_playerjoin: false
+showtips: true
+custom_game_world: false
+remind_voting: false
+tip_messages:
+- Use your compass to track players.
+- Nether portals are functional.
+- Join our Discord...
+- Anti-Jorge!
+voting_sites:
+- example.com/vote1
+- example.com/vote2

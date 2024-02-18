@@ -1,0 +1,21 @@
+# This is where user data is stored, such as ranking
+Natzki:
+  kills: 1
+  coins: 10
+  wins: 1
+  kits: ''
+Example:
+  kills: 1
+  coins: 18
+  wins: 2
+  kits: ''
+Another_Player:
+  kills: 5
+  coins: 6
+  wins: 2
+  kits: ''
+__AffeMitWaffe__:
+  kills: 0
+  coins: 0
+  wins: 0
+  kits: ''

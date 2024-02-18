@@ -1,0 +1,66 @@
+name: HungerGames
+main: me.natzki.hungergames.Main
+version: 1.0
+api-version: 1.17
+commands:
+    kit:
+       description: Select a kit
+       usage: /<command> <kit>
+    out:
+       description: Opt out of the game
+       usage: /<command>
+    in:
+       description: Add a player to the game
+       usage: /<command>
+    startgame:
+       description: Start game (admin)
+       usage: /<command>
+    stopgame:
+       description: Stop game (admin)
+       usage: /<command>
+    deathmatch:
+       description: Initiate deathmatch (admin)
+       usage: /<command>
+    dm:
+       description: Vote for deathmatch
+       usage: /<command>
+    kits:
+       description: Shows a list of kits
+       usage: /<command>
+    calc:
+       description: Calculates coin fees
+       usage: /<command>
+    coins:
+       description: Shows the current user's balance
+       usage: /<command>
+    supply:
+       description: Spawn a supply station (admin)
+       usage: /<command>
+    showkit:
+       description: Shows kit
+       usage: /<command>
+    showplayers:
+       description: Shows registered players
+       usage: /<command>
+    showram:
+       description: Logs RAM allocation to console (admin)
+       usage: /<command>
+    stopram:
+       description: Stop RAM logging (admin)
+       usage: /<command>
+    discord:
+       description: Shows Discord invite link
+       usage: /<command>
+    skypehg:
+       description: Shows Skype group invite link
+       usage: /<command>
+    reward:
+       description: For votes (admin, console)
+       usage: /<command>
+permissions:
+   hungergames.*:
+      description: Permission for all of HungerGames
+      children:
+         hungergames.gamecommands: true
+   hungergames.gamecommands:
+      description: Permission to use various commands
